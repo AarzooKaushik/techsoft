@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="section-header bg-wave">
+      <header class="navbar">
+        <nav class="flex">
+          <div class="logo">TECHSOFT</div>
+          <ul class="navlist flex-center">
+            <li><a class="nav_link" href="./index.html">Home</a></li>
+            <li><a class="nav_link" href="./features.html">Feature</a></li>
+            <li><a class="nav_link" href="./price.html">Price</a></li>
+            <li>
+              <a class="nav_link" href="./testimonial.html">Testimonial</a>
+            </li>
+            <li>
+              <a class="nav_link active" href="./contact.html">Contact</a>
+            </li>
+            <li><button class="primary-btn">Sign Up</button></li>
+          </ul>
+
+          <div class="menu-bar">
+            <i class="bx bx-menu"></i>
+          </div>
+          <div class="hide-menu">
+            <i class="bx bx-x"></i>
+          </div>
+        </nav>
+      </header>
+      <div class="section-header-content flex-center">
+        <h1 class="home-main-heading margin-bottom-small">Contact Us</h1>
+        <p class="primary-para">Home / Contact Us</p>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div>
+        <div class="contact-info flex">
+          <div>
+            <div class="icon"><i class="bx bx-home"></i></div>
+            <h2 class="secondary-heading">California United States</h2>
+            <p class="primary-para">Santa monica bullevard</p>
+          </div>
+          <div>
+            <div class="icon"><i class="bx bx-headphone"></i></div>
+            <h2 class="secondary-heading">+91 43556532187</h2>
+            <p class="primary-para">Mon to Fri 9am to 6pm</p>
+          </div>
+          <div>
+            <div class="icon"><i class="bx bx-envelope"></i></div>
+            <h2 class="secondary-heading">support@colorlib.com</h2>
+            <p class="primary-para">Send us your query anytime!</p>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <div>
+            <label for="name" class="form-label">Name* :</label>
+            <span class="error-text"></span>
+            <input
+              name="name"
+              id="username"
+              type="text"
+              class="form-control"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="form-flex grid">
+            <div>
+              <label for="email" class="form-label">Email address* :</label>
+              <span class="error-text"></span>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div>
+              <label for="number" class="form-label">Phone number* :</label>
+              <span class="error-text"></span>
+              <input
+                type="text"
+                class="form-control"
+                name="number"
+                id="number"
+                placeholder="Enter your number"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="comments" class="form-label">Comments :</label>
+
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              name="comments"
+              id="comments"
+            ></textarea>
+          </div>
+          <div class="submit-btn">
+            <button type="submit" class="primary-btn">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer flex">
+          <div class="footerFlex">
+            <div class="footer-content">
+              <h2 class="footer-heading">Top Products</h2>
+              <p><a href="#">Managed Website</a></p>
+              <p><a href="#">Manage Reputation</a></p>
+              <p><a href="#">Power Tools</a></p>
+              <p><a href="#">Marketing Service</a></p>
+            </div>
+            <div class="footer-content">
+              <h2 class="footer-heading">Quick Links</h2>
+              <p><a href="#">Jobs</a></p>
+              <p><a href="#">Brand Assets</a></p>
+              <p><a href="#">Investor Relations</a></p>
+              <p><a href="#">Terms of Service</a></p>
+            </div>
+          </div>
+          <div class="footerFlex">
+            <div class="footer-content">
+              <h2 class="footer-heading">Features</h2>
+              <p><a href="#">Jobs</a></p>
+              <p><a href="#">Brand Assets</a></p>
+              <p><a href="#">Investor Relations</a></p>
+              <p><a href="#">Terms of Service</a></p>
+            </div>
+            <div class="footer-content">
+              <h2 class="footer-heading">Resources</h2>
+              <p><a href="#">Guides</a></p>
+              <p><a href="#">Research</a></p>
+              <p><a href="#">Experts</a></p>
+              <p><a href="#">Agencies</a></p>
+            </div>
+          </div>
+          <div class="footer-content">
+            <h2 class="footer-heading">Newsletter</h2>
+            <p class="primary-para">
+              You can trust us. we only send promo offers,
+            </p>
+            <div class="email-form">
+              <input type="email" placeholder="Your Email Address" />
+              <button class="e-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-para flex">
+          <p class="primary-para">Copyright ©2022 All rights reserved.</p>
+          <div class="footer-icons flex-center">
+            <div class="flex-center">
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="flex-center"><i class="fa-brands fa-twitter"></i></div>
+            <div class="flex-center"><i class="fa-brands fa-dribbble"></i></div>
+            <div class="flex-center"><i class="fa-brands fa-behance"></i></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
